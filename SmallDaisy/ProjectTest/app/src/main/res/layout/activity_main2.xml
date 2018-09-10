@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/goods_6"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="和我一起开启寻香之旅吧！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/texttitle"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:text="您的年龄"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/spinner1" />
+
+    <TextView
+        android:text="您的工作环境"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2" />
+
+    <TextView
+        android:text="购买香水的途径"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3" />
+
+    <Button
+        android:text="开启"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:background="#E6E6FA"/>
+
+</LinearLayout>
